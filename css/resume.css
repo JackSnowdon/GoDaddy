@@ -186,3 +186,14 @@ a:focus,
 a:active {
     color: #69e742;
 }
+
+.mail-link {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.mail-link:hover {
+    text-decoration: none;
+}
