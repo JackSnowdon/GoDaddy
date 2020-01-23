@@ -84,6 +84,13 @@ p.lead {
     font-size: 3rem;
 }
 
+.dev-icons .list-inline-item i {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 .dev-icons .list-inline-item i:hover {
     color: rgb(66, 209, 130);
 }
@@ -196,4 +203,16 @@ a:active {
 
 .mail-link:hover {
     text-decoration: none;
+}
+
+.project-link {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.project-link:hover {
+    text-decoration: none;
+    color: #69e742;
 }
